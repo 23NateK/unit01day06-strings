@@ -4,7 +4,8 @@ public class NegatePhrase {
         if (phrase.substring(0,3).equals("not")){
             System.out.println(phrase);
         }else{
-            System.out.println("not "+ phrase);
+            String newstring = "not " + phrase;
+            System.out.println(newstring);
         }
     }
 }
