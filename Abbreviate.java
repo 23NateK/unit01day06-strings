@@ -4,7 +4,8 @@ public class Abbreviate {
         if (word.length()<8){
             System.out.println(word);
         }else{
-            System.out.println(word.substring(0,2)+"..."+word.substring(word.length()-2,word.length()));
+            String newstring = word.substring(0,2)+"..."+word.substring(word.length()-2,word.length());
+            System.out.println(newstring);
         }
     }
 }
