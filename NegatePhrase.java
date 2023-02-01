@@ -1,3 +1,4 @@
+// good
 public class NegatePhrase {
     public static void main(String[] args) {
         String phrase = args[0];
